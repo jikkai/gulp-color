@@ -1,0 +1,22 @@
+{
+  "name": "gulp-color",
+  "version": "0.0.1",
+  "description": "color your console",
+  "keywords": [
+    "gulpplugin",
+    "color",
+    "console"
+  ],
+  "homepage": "https://blog.asaki.me",
+  "bugs": "https://github.com/jikkai/gulp-color/issues",
+  "author": "白熱大先生 <sonne@asaki.me>",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jikkai/gulp-color.git"
+  },
+  "engines": {
+    "node": ">=0.9"
+  },
+  "license": "MIT"
+}
