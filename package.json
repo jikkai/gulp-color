@@ -1,7 +1,13 @@
 {
   "name": "gulp-color",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "color your console",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "pre-commit": [
+    "lint"
+  ],
   "keywords": [
     "gulpplugin",
     "color",
@@ -9,7 +15,7 @@
   ],
   "homepage": "https://blog.asaki.me",
   "bugs": "https://github.com/jikkai/gulp-color/issues",
-  "author": "白熱大先生 <sonne@asaki.me>",
+  "author": "Jikkai Xiao <sonne@asaki.me>",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -18,5 +24,15 @@
   "engines": {
     "node": ">=0.9"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-friendly-formatter": "^4.0.0",
+    "eslint-plugin-import": "^2.10.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "pre-commit": "^1.2.2"
+  }
 }

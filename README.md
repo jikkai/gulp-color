@@ -1,11 +1,14 @@
 # gulp-color
-Color your console.
+
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](https://github.com/standard/standard)
+
+> Color your console.
 
 ## Install
 
 Install with [npm](https://npmjs.org/package/gulp-color).
 
-```
+```bash
 npm install --save-dev gulp-color
 ```
 
@@ -21,6 +24,7 @@ gulp.task('default', function () {
 ```
 
 You can use this following color:
+
 * BLACK
 * RED
 * GREEN
